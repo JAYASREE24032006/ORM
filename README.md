@@ -23,15 +23,22 @@ Enter the code for admin.py and models.py
 ### STEP 4:
 Execute Django admin and create details for 10 books
 
-## PROGRAM
-```
+## PROGRAM:
+
 admin.py
+
+```
+
 from django.apps import AppConfig
 class AppConfig(AppConfig):
 default_auto_field = 'django.db.models.BigAutoField'
 name = 'App'
 
+```
 models.py
+
+```
+
 from django.db import models
 class Employee(models.Model):
 empid=models.IntegerField()
