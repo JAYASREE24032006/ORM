@@ -51,7 +51,6 @@ aadhaar=models.BigIntegerField(null=True)
 
 
 ## OUTPUT
-![alt text](<Screenshot 2024-04-04 084230.png>)
 
 ![alt text](<Screenshot 2024-04-04 084243.png>)
 
